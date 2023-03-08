@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family
+=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/reset.css" />
+    <title>order card</title>
+    <Style>
+        body {
+            background-image: url(/images/pattern-background-desktop.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-color: #E0E8FF;
+
+
+            
+        }
+        
+        
+        .container {
+            background-color: #FFFFFF;
+            width: 450px;
+            height: 697px;
+            border-radius: 20px;
+            margin: auto;
+            margin-top: 102px;
+            margin-bottom: 101px;
+            box-shadow:0px 5px 20px #d3cce3;
+
+        }
+         
+        .hero {
+            width: 450px;
+            height: 220px;
+            border-radius: 20px 20px 0px 0px;
+            margin-bottom: 45px;
+
+        }
+
+        h1 {
+            top:265px;
+            left:48px;
+            color:  #1F2E55;
+            font-family:Red Hat Display;
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 37.04px;
+            text-align: center;
+            padding-bottom: 17px;
+
+        }
+         .firstparagraph {
+            top:319px;
+            left:48px;
+            color:#717FA6;
+            font-family: Red Hat Display;
+            font-weight: 500;
+            font-size:16px;
+            line-height: 26px;
+            text-align: center;
+            padding-bottom: 20px;
+         }
+         .musicicon {
+            width:48px;
+            height:48px;
+
+         }
+         .annualparagraph {
+            color:#1F2E55;
+            font-family:Red Hat Display;
+            font-size:16px;
+            font-weight: 900;
+            line-height: 21.17px;
+            margin-bottom:6px;
+         }
+         .priceparagraph {
+            color:#717FA6;
+            font-family:Red Hat Display;
+            font-weight: 500;
+            font-size:16px;
+            line-height: 21.17px;
+
+         }
+         .changeparagraph {
+            color:#382AE1;
+            font-family:Red Hat Display;
+            font-weight: 700;
+            font-size:14px;
+            line-height: 18.52px;
+            cursor:pointer;
+         }
+
+        .firstmiddlebox {
+            background-color:#F7F9FF;
+            width: 354px;
+            height:98px;
+            border-radius: 11px;
+            margin-left: 48px;
+            margin-right: 48px;
+            margin-bottom: 32px;
+        }
+         
+        .firstmiddlebox:hover {
+            background-color:#f1f2f5;
+        }
+         
+            
+        
+        
+        .middlebox {
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            padding:25px 24px 25px 24px;
+            
+
+        }
+        .thirdmiddlebox {
+            display:flex;
+            column-gap:20px;
+        }
+
+        button {
+            color: #FFFFFF;
+            font-family:Red Hat Display;
+            font-weight:900;
+            font-size: 15px;
+            line-height:19.85px;
+            background-color: #382AE1;
+            width:354px;
+            height:50px;
+            border-radius: 11px;
+            border:none;
+            padding:15px 102px 15px 102px;
+            margin-left: 48px;
+            margin-right:48px;
+            margin-bottom:32px;
+            box-shadow:0 18px 25px #cbcadd;
+            cursor:pointer;
+            
+            
+            
+            
+        }
+
+        .cancelparagraph {
+            text-align: center;
+            color:#717FA6;
+            font-family: Red Hat Display;
+            font-weight: 900;
+            font-size:15px;
+            line-height:19.85px;
+            cursor:pointer;
+        }
+            
+        
+        
+        
+       
+            
+
+        
+       
+        
+        
+
+
+
+    </Style>
+</head>
+<body>
+<div class="container">
+    <img class="hero" src="/images/illustration-hero.svg" />
+    
+    <h1>Order Summary</h1>
+    <p class="firstparagraph">You can now listen to millions of songs,<br> audiobooks, and podcasts on any device<br> anywhere you like!</p>
+    
+    <div class="firstmiddlebox">
+        
+        <div class="middlebox">
+               <div class="thirdmiddlebox">
+                <img class="musicicon" src="/images/icon-music.svg"/>
+                  <div>
+                 <p class="annualparagraph">Annual Plan</p>
+                 <p class="priceparagraph">$59.99/year</p>
+                  </div>
+               </div>
+               <p class="changeparagraph">Change</p>
+               
+        </div>
+        
+    </div>
+    <button>Proceed to Payment</button>
+    <p class="cancelparagraph">Cancel Order</p>
+</div>
+
+</body>
+
+</html>
